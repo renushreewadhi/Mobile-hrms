@@ -1,0 +1,47 @@
+name: my_first_demo
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  http: ^1.6.0
+  flutter_secure_storage: ^11.2.0
+  webview_flutter: ^4.14.1
+  camera: ^0.12.1
+  geolocator: ^14.1.1
+  image_picker: ^1.2.4
+  google_maps_flutter: ^2.12.3
+  permission_handler: ^13.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+  flutter_launcher_icons: ^0.14.4
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/hrms_building.png
+    - assets/hrms_building_day.png
+    - assets/etaprise_logo.png
+    - assets/etaprise_logo_dark.png
+
+
+flutter_launcher_icons:
+  android: true
+  image_path: "assets/etaprise_logo.png"
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: "assets/etaprise_logo.png"
+  adaptive_icon_foreground_inset: 20
